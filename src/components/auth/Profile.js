@@ -32,7 +32,7 @@ export const Profile = () => {
                     {
                         profile.events.map(event => {
                             return <div key={event.id} className="registration">
-                                <div className="registration__game">{event.game.title}</div>
+                                <div className="registration__game">{event.game.name}</div>
                                 <div>{event.description}</div>
                                 <div>
                                     {event.date} @ {event.time}
